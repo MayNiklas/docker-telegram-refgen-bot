@@ -17,4 +17,4 @@ VOLUME /node/
 COPY entrypoint.sh /
 COPY bot.js /node/
 
-ENTRYPOINT "./entrypoint.sh"
+ENTRYPOINT ["sh", "/entrypoint.sh"]
