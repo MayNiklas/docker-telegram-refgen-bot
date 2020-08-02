@@ -1,14 +1,14 @@
-version: '3'
+version: '2.4'
 services:
   tg_bot:
     container_name: refgen-bot
     image: mayniki/refgen-bot
-    build: .
+    mem_limit: 32m
     environment:
       - key=
       - id=
-      - UID=1000
-      - GID=1000
+#      - UID=
+#      - GID=
     stdin_open: true
     tty: true
     restart: unless-stopped
