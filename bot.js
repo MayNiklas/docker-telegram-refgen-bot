@@ -5,7 +5,7 @@ const Markup = require('telegraf/markup')
 
 
 const bot = new Telegraf('API-KEY')
-bot.start((ctx) => ctx.reply('Hello. Willkommen bei mir, einem Telegram Bot. Schicke mir einen Amazon Produkt Link odeer eine ASIN ID und ich werde dir mit einem passendem Referal Link antworten.'))
+bot.start((ctx) => ctx.reply('Hello. Willkommen bei mir, einem Telegram Bot. Schicke mir einen Amazon Produkt Link oder eine ASIN ID und ich werde dir mit einem passendem Referal Link antworten.'))
 bot.help((ctx) => ctx.reply('Sende mir einfach einen Amazon Link odeer eine ASIN ID!'))
 
 
