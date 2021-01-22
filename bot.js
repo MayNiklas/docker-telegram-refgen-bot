@@ -1,8 +1,4 @@
-const Telegraf = require('telegraf')
-const Extra = require('telegraf/extra')
-const Markup = require('telegraf/markup')
-
-
+const { Telegraf } = require('telegraf')
 
 const bot = new Telegraf('API-KEY')
 bot.start((ctx) => ctx.reply('Hello. Willkommen bei mir, einem Telegram Bot. Schicke mir einen Amazon Produkt Link odeer eine ASIN ID und ich werde dir mit einem passendem Referal Link antworten.'))
