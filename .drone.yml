@@ -26,6 +26,6 @@ steps:
       from_secret: DOCKER_PASSWORD
   when:
     branch:
-    - master
+    - main
     event:
     - push
