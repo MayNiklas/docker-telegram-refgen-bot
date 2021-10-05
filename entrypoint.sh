@@ -10,5 +10,5 @@ sed -i "s/REF-ID/$id/g" /node/bot.js
 
 
 su bot << EOF
-nodejs /node/bot.js
+/usr/bin/node /node/bot.js
 EOF
